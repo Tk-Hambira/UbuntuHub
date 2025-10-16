@@ -1,4 +1,6 @@
-# Ubuntu Hub Namibia - Frontend
+# Ubuntu Hub Namibia
+
+# Frontend
 
 A beautiful, responsive React application showcasing authentic Namibian products and connecting local artisans with global customers.
 
