@@ -173,5 +173,3 @@ Google Fonts are imported in `index.css`:
 This project is part of the Ubuntu Hub Namibia platform.
 
 ---
-
-Made with ❤️ in Namibia
