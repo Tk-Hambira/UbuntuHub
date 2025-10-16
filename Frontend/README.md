@@ -2,7 +2,7 @@
 
 A beautiful, responsive React application showcasing authentic Namibian products and connecting local artisans with global customers.
 
-## 🚀 Features
+## Features
 
 - **Modern React Application** - Built with React 18 and Vite for optimal performance
 - **Responsive Design** - Beautiful UI that works perfectly on all devices
@@ -12,7 +12,7 @@ A beautiful, responsive React application showcasing authentic Namibian products
 - **Category Filtering** - Easy navigation through different product categories
 - **Contact Form** - Direct communication with the Ubuntu Hub team
 
-## 🎨 Design Theme
+## Design Theme
 
 The application follows a cohesive design theme inspired by the Namib Desert:
 
@@ -21,7 +21,7 @@ The application follows a cohesive design theme inspired by the Namib Desert:
 - **Layout**: Spacious, grid-based design with consistent margins
 - **Components**: Rounded corners, subtle shadows, smooth hover transitions
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **React 18** - Modern React with hooks and functional components
 - **Vite** - Fast build tool and development server
@@ -30,7 +30,7 @@ The application follows a cohesive design theme inspired by the Namib Desert:
 - **React Router** - Client-side routing
 - **Lucide React** - Beautiful icon library
 
-## 📦 Installation
+## Installation
 
 1. Navigate to the Frontend directory:
    ```bash
@@ -49,14 +49,14 @@ The application follows a cohesive design theme inspired by the Namib Desert:
 
 4. Open your browser and visit `http://localhost:3000`
 
-## 🏗️ Available Scripts
+## Available Scripts
 
 - `npm run dev` - Start development server
 - `npm run build` - Build for production
 - `npm run preview` - Preview production build
 - `npm run lint` - Run ESLint
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 src/
@@ -74,7 +74,7 @@ src/
 └── index.css          # Global styles and Tailwind imports
 ```
 
-## 🌟 Key Components
+## Key Components
 
 ### Navbar
 - Responsive navigation with mobile menu
@@ -97,7 +97,7 @@ src/
 - Responsive layout
 - Interactive elements
 
-## 🎯 Features in Detail
+## Features in Detail
 
 ### Home Page
 - Hero section with Namib Desert imagery
@@ -123,7 +123,7 @@ src/
 - FAQ section
 - Business hours
 
-## 🔧 Customization
+## Customization
 
 ### Colors
 The color palette can be customized in `tailwind.config.js`:
@@ -143,13 +143,13 @@ Google Fonts are imported in `index.css`:
 - Montserrat (headings)
 - Inter (body text)
 
-## 📱 Responsive Breakpoints
+## Responsive Breakpoints
 
 - Mobile: < 640px
 - Tablet: 640px - 1024px
 - Desktop: > 1024px
 
-## 🚀 Deployment
+## Deployment
 
 1. Build the project:
    ```bash
@@ -158,7 +158,7 @@ Google Fonts are imported in `index.css`:
 
 2. Deploy the `dist` folder to your hosting service
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -166,7 +166,7 @@ Google Fonts are imported in `index.css`:
 4. Test thoroughly
 5. Submit a pull request
 
-## 📄 License
+## License
 
 This project is part of the Ubuntu Hub Namibia platform.
 
