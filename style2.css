@@ -1,0 +1,164 @@
+body {
+  font-family: sans-serif;
+  background: #98783c;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+/* Headings */
+h2, h3 {
+  color: #333;
+}
+
+/* Form Section */
+.formWrap, .filterWrap {
+  background: #fefefe;
+  padding: 2rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.formGroup {
+  margin-bottom: 1.2rem;
+}
+
+.formGroup label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.formGroup input,
+.formGroup textarea,
+.formGroup select {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+.formGroup input[type="file"] {
+  padding: 5px;
+}
+
+/* Buttons stylings */
+.buttonGroup {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  transition: background-color 0.2s ease;
+}
+
+.btn-submit {
+  background-color: #28a745;
+  color: white;
+}
+
+.btn-submit:hover {
+  background-color: #218838;
+}
+
+.btn-clear {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn-clear:hover {
+  background-color: #c82333;
+}
+
+/* Filter Section */
+#searchInput,
+#categoryFilter {
+  padding: 10px;
+  font-size: 14px;
+  margin-right: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+/* Table Section */
+.tableWrap {
+  background: #fff;
+  margin-top: 1rem;
+  border-radius: 10px;
+  padding: 2rem;
+}
+
+.tableContainer {
+  width: 100%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background: rgb(251, 172, 26);
+  color: #fff;
+}
+
+th {
+  padding: 15px;
+  text-align: left;
+}
+
+tbody {
+  background: #f2f2f2;
+  font-size: 14px;
+  color: #333;
+}
+
+tbody td {
+  padding: 16px 12px;
+  line-height: 1.5;
+}
+
+tr:nth-child(even) {
+  background: #fdfaed;
+}
+
+/* Product Image Styling once in the table */
+.product-image {
+  max-width: 60px;
+  max-height: 60px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.back-btn{
+  background-color: rgb(251, 172, 26);
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  transition: background-color 0.2s ease;
+  margin-bottom: 10px;
+}
+
+/* Optional Footer Styling if needed */
+tfoot {
+  background: rgba(113, 99, 186, 255);
+  font-weight: bold;
+  color: #fff;
+}
+
+tfoot td {
+  padding: 15px;
+}
