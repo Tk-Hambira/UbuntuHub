@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Product Management</title>
+  <link rel="stylesheet" href="style2.css" />
+</head>
+<body>
+  <button class="back-btn" onclick="redirectToHomePage()">Back</button>
+  <div class="formWrap">
+    <h2>New Product Entry:</h2>
+    <form id="product-form">
+      <div class="formGroup">
+        <label for="productName">Product Name:</label>
+        <input type="text" id="productName" required>
+      </div>
+      <div class="formGroup">
+        <label for="productID">Product ID:</label>
+        <input type="text" id="productID" required>
+      </div>
+      <div class="formGroup">
+        <label for="category">Category:</label>
+        <select id="category" required>
+          <option value="">-Select category-</option>
+          <option value="food">Food</option>
+          <option value="ceramic">Ceramic Art</option>
+          <option value="wood">Wooden Art</option>
+          <option value="books">Books</option>
+          <option value="jewelery">Jewelery</option>
+          <option value="shoes">Shoes</option>
+          <option value="paintings">Paintings</option>
+          <option value="herbs">Herbs</option>
+          <option value="clothing">Clothings</option>
+          <option value="glass">Glass</option>
+          <!-- Add more filters as needed -->
+        </select>
+      </div>
+      <div class="formGroup">
+        <label for="description">Description:</label>
+        <textarea id="description" rows="4" required></textarea>
+      </div>
+      <div class="formGroup">
+        <label for="amount">Amount ($):</label>
+        <input type="number" id="amount" required>
+      </div>
+      <div class="formGroup">
+        <label for="productImage">Product Image:</label>
+        <input type="file" id="productImage" accept="image/*">
+      </div>
+
+      <div class="buttonGroup">
+        <button type="submit" class="btn btn-submit">Submit</button>
+        <button type="button" class="btn btn-clear" onclick="clearForm()">Clear</button>
+      </div>
+    </form>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
