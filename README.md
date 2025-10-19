@@ -1,6 +1,7 @@
-# Ubuntu Hub Namibia - Frontend
+# Ubuntu Hub Namibia
+# Frontend
 
-A modern, Namibian-themed online catalog and marketplace web application built with React and Tailwind CSS.
+Namibian online catalog and marketplace web application built with React and Tailwind CSS.
 
 ## Description
 
@@ -115,6 +116,3 @@ The frontend is designed to integrate with a PHP/MySQL backend running on XAMPP.
 
 This project is licensed under the MIT License.
 
-## Support
-
-For questions or support, please contact the development team or refer to the backend setup documentation.
